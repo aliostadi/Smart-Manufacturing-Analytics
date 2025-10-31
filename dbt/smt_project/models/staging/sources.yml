@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: public
+    database: smt
+    schema: public
+    tables:
+      - name: station_records
+      - name: ideal_cycle_times
+      - name: stations

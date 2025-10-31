@@ -1,0 +1,104 @@
+version: 2
+
+models:
+  - name: int_quality_station_hour
+    description: >
+      Aggregates PCB test results per station and hour.
+      Combines station records to calculate total, pass, and fail PCBs, 
+      forming the foundation for hourly quality metrics.
+    columns:
+      - name: station_number
+        description: Identifier of the production station.
+        tests: [not_null]
+      - name: date_hour
+        description: Aggregated timestamp rounded to the nearest hour.
+        tests: [not_null]
+      - name: total_pcb
+        description: Total number of PCBs processed at the station within the hour.
+      - name: pass_pcb
+        description: Number of PCBs that passed the final test.
+      - name: fail_pcb
+        description: Number of PCBs that failed during the hour.
+      - name: total_bookings
+        description: Total booking events in that hour.
+      - name: pass_bookings
+        description: Number of successful bookings.
+      - name: fail_bookings
+        description: Number of failed bookings.
+
+  - name: int_quality_linewise_datehour
+    description: >
+      Aggregates PCB quality KPIs across the entire production line per hour.
+      Joins quality_station_hour data to calculate overall line performance, 
+      scrap rate, and first-pass yield (FPY).
+    columns:
+      - name: date_hour
+        description: Hourly aggregation timestamp.
+        tests: [not_null]
+      - name: fpy_pcbs
+        description: Number of PCBs that passed all tests on the first attempt.
+      - name: fpy_percent
+        description: First Pass Yield percentage of total processed PCBs.
+      - name: pass_pcb_linewise
+        description: Total passed PCBs in AOI2 (final check station).
+      - name: scrap_pcb_linewise
+        description: Total failed PCBs across SPI and AOI2.
+      - name: total_pcb_linewise
+        description: Sum of all PCBs processed (passed + failed).
+      - name: pass_pcb_linewise_percent
+        description: Percentage of PCBs that passed across the full line.
+      - name: scrap_pcb_linewise_percent
+        description: Percentage of PCBs that failed across the full line.
+
+  - name: int_performance_station_hour
+    description: >
+      Calculates station-level performance metrics by comparing actual vs. ideal cycle times.
+      Provides hourly performance percentages per station and part number.
+    columns:
+      - name: station_number
+        description: Unique identifier for each station.
+        tests: [not_null]
+      - name: date_hour
+        description: Hourly time bucket for cycle time analysis.
+        tests: [not_null]
+      - name: part_number
+        description: Product or part processed in that hour.
+        tests: [not_null]
+      - name: avg_cycle_time
+        description: Average cycle time (in seconds) observed in the hour.
+      - name: ideal_cycle_time
+        description: Ideal target cycle time (from reference table).
+      - name: count_bookings
+        description: Number of recorded production bookings in the hour.
+      - name: performance_percent
+        description: >
+          Performance efficiency calculated as 
+          (ideal_cycle_time * count_bookings / sum_cycle_time) * 100.
+
+  - name: int_availability_station_hour
+    description: >
+      Calculates hourly availability per station based on time differences between consecutive 
+      production records. Availability represents the total operational time within each hour,
+      derived from station activity logs.
+    columns:
+      - name: station_number
+        description: Unique identifier for each production station.
+        tests: [not_null]
+
+      - name: date_hour
+        description: >
+          Hourly time bucket representing the time period in which uptime and availability 
+          are aggregated.
+        tests: [not_null]
+
+      - name: uptime_seconds
+        description: >
+          Total duration (in seconds) of productive operation for each station within the given hour.
+          Calculated by summing time differences between consecutive timestamps (LAG function).
+
+      - name: availability
+        description: >
+          Availability ratio for each station-hour, calculated as 
+          uptime_seconds divided by the total seconds in one hour (3600).
+          Represents the percentage of time the station was active during that hour.
+

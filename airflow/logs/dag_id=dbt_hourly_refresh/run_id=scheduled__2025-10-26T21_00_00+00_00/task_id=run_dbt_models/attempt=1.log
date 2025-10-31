@@ -1,0 +1,55 @@
+[2025-10-26T23:00:01.050+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-26T23:00:01.089+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_hourly_refresh.run_dbt_models scheduled__2025-10-26T21:00:00+00:00 [queued]>
+[2025-10-26T23:00:01.099+0100] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_hourly_refresh.run_dbt_models scheduled__2025-10-26T21:00:00+00:00 [queued]>
+[2025-10-26T23:00:01.099+0100] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-10-26T23:00:01.115+0100] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): run_dbt_models> on 2025-10-26 21:00:00+00:00
+[2025-10-26T23:00:01.124+0100] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dbt_hourly_refresh', 'run_dbt_models', 'scheduled__2025-10-26T21:00:00+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/dbt_hourly_refresh_dag.py', '--cfg-path', '/tmp/tmppu6xho5l']
+[2025-10-26T23:00:01.127+0100] {standard_task_runner.py:105} INFO - Job 68: Subtask run_dbt_models
+[2025-10-26T23:00:01.128+0100] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3921) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-26T23:00:01.128+0100] {standard_task_runner.py:72} INFO - Started process 3922 to run task
+[2025-10-26T23:00:01.188+0100] {task_command.py:467} INFO - Running <TaskInstance: dbt_hourly_refresh.run_dbt_models scheduled__2025-10-26T21:00:00+00:00 [running]> on host f229876aebe2
+[2025-10-26T23:00:01.308+0100] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Aliostadi' AIRFLOW_CTX_DAG_ID='dbt_hourly_refresh' AIRFLOW_CTX_TASK_ID='run_dbt_models' AIRFLOW_CTX_EXECUTION_DATE='2025-10-26T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-26T21:00:00+00:00'
+[2025-10-26T23:00:01.309+0100] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-26T23:00:01.402+0100] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-10-26T23:00:01.404+0100] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt_project && dbt clean && dbt run --full-refresh']
+[2025-10-26T23:00:01.424+0100] {subprocess.py:86} INFO - Output:
+[2025-10-26T23:00:05.412+0100] {subprocess.py:93} INFO - [0m22:00:05  Running with dbt=1.8.3
+[2025-10-26T23:00:05.872+0100] {subprocess.py:93} INFO - [0m22:00:05  Checking /opt/***/dbt_project/target/*
+[2025-10-26T23:00:05.883+0100] {subprocess.py:93} INFO - [0m22:00:05  Cleaned /opt/***/dbt_project/target/*
+[2025-10-26T23:00:05.884+0100] {subprocess.py:93} INFO - [0m22:00:05  Checking /opt/***/dbt_project/dbt_packages/*
+[2025-10-26T23:00:05.884+0100] {subprocess.py:93} INFO - [0m22:00:05  Cleaned /opt/***/dbt_project/dbt_packages/*
+[2025-10-26T23:00:05.884+0100] {subprocess.py:93} INFO - [0m22:00:05  Finished cleaning all paths.
+[2025-10-26T23:00:09.308+0100] {subprocess.py:93} INFO - [0m22:00:09  Running with dbt=1.8.3
+[2025-10-26T23:00:09.980+0100] {subprocess.py:93} INFO - [0m22:00:09  Registered adapter: postgres=1.8.2
+[2025-10-26T23:00:10.218+0100] {subprocess.py:93} INFO - [0m22:00:10  Unable to do partial parsing because saved manifest not found. Starting full parse.
+[2025-10-26T23:00:12.934+0100] {subprocess.py:93} INFO - [0m22:00:12  [[33mWARNING[0m]: Deprecated functionality
+[2025-10-26T23:00:12.934+0100] {subprocess.py:93} INFO - The `tests` config has been renamed to `data_tests`. Please see
+[2025-10-26T23:00:12.934+0100] {subprocess.py:93} INFO - https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+[2025-10-26T23:00:12.936+0100] {subprocess.py:93} INFO - information.
+[2025-10-26T23:00:13.330+0100] {subprocess.py:93} INFO - [0m22:00:13  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-10-26T23:00:13.332+0100] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2025-10-26T23:00:13.333+0100] {subprocess.py:93} INFO - - models.intermediters
+[2025-10-26T23:00:13.661+0100] {subprocess.py:93} INFO - [0m22:00:13  Found 4 models, 8 data tests, 3 sources, 428 macros
+[2025-10-26T23:00:13.665+0100] {subprocess.py:93} INFO - [0m22:00:13
+[2025-10-26T23:00:13.824+0100] {subprocess.py:93} INFO - [0m22:00:13  Concurrency: 4 threads (target='dev')
+[2025-10-26T23:00:13.825+0100] {subprocess.py:93} INFO - [0m22:00:13
+[2025-10-26T23:00:13.838+0100] {subprocess.py:93} INFO - [0m22:00:13  1 of 4 START sql incremental model analytics.int_availability_station_hour ..... [RUN]
+[2025-10-26T23:00:13.852+0100] {subprocess.py:93} INFO - [0m22:00:13  2 of 4 START sql incremental model analytics.int_performance_station_hour ...... [RUN]
+[2025-10-26T23:00:13.861+0100] {subprocess.py:93} INFO - [0m22:00:13  3 of 4 START sql incremental model analytics.int_quality_station_hour .......... [RUN]
+[2025-10-26T23:00:15.216+0100] {subprocess.py:93} INFO - [0m22:00:15  2 of 4 OK created sql incremental model analytics.int_performance_station_hour . [[32mSELECT 3091[0m in 1.36s]
+[2025-10-26T23:00:17.343+0100] {subprocess.py:93} INFO - [0m22:00:17  1 of 4 OK created sql incremental model analytics.int_availability_station_hour  [[32mSELECT 718[0m in 3.50s]
+[2025-10-26T23:00:23.768+0100] {subprocess.py:93} INFO - [0m22:00:23  3 of 4 OK created sql incremental model analytics.int_quality_station_hour ..... [[32mSELECT 3091[0m in 9.90s]
+[2025-10-26T23:00:23.775+0100] {subprocess.py:93} INFO - [0m22:00:23  4 of 4 START sql incremental model analytics.int_quality_linewise_datehour ..... [RUN]
+[2025-10-26T23:00:24.456+0100] {subprocess.py:93} INFO - [0m22:00:24  4 of 4 OK created sql incremental model analytics.int_quality_linewise_datehour  [[32mSELECT 396[0m in 0.68s]
+[2025-10-26T23:00:24.494+0100] {subprocess.py:93} INFO - [0m22:00:24
+[2025-10-26T23:00:24.496+0100] {subprocess.py:93} INFO - [0m22:00:24  Finished running 4 incremental models in 0 hours 0 minutes and 10.83 seconds (10.83s).
+[2025-10-26T23:00:24.570+0100] {subprocess.py:93} INFO - [0m22:00:24
+[2025-10-26T23:00:24.571+0100] {subprocess.py:93} INFO - [0m22:00:24  [32mCompleted successfully[0m
+[2025-10-26T23:00:24.572+0100] {subprocess.py:93} INFO - [0m22:00:24
+[2025-10-26T23:00:24.573+0100] {subprocess.py:93} INFO - [0m22:00:24  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[2025-10-26T23:00:25.426+0100] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-10-26T23:00:25.466+0100] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-26T23:00:25.466+0100] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dbt_hourly_refresh, task_id=run_dbt_models, run_id=scheduled__2025-10-26T21:00:00+00:00, execution_date=20251026T210000, start_date=20251026T220001, end_date=20251026T220025
+[2025-10-26T23:00:25.492+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-26T23:00:25.509+0100] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-26T23:00:25.512+0100] {local_task_job_runner.py:245} INFO - ::endgroup::

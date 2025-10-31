@@ -1,0 +1,14 @@
+# Ignore everything inside postgres-data
+database/postgres-data/*
+# But keep the folder itself
+!database/postgres-data/.gitkeep
+
+
+kafka/kafka-broker/kafka-data/*
+
+!kafka/kafka-broker/kafka-data/.gitkeep
+
+
+kafka/kafka-broker/kafka-logs/*
+
+!kafka/kafka-broker/kafka-logs/.gitkeep

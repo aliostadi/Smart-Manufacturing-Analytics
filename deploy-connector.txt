@@ -1,0 +1,117 @@
+#!/bin/bash
+
+echo "================================================"
+echo "Kafka Connect JDBC Sink Connector Deployer"
+echo "================================================"
+
+echo "Waiting for Kafka Connect to be ready..."
+
+# Wait for Kafka Connect to be ready (max 60 seconds)
+MAX_ATTEMPTS=60
+ATTEMPT=0
+
+while [ $ATTEMPT -lt $MAX_ATTEMPTS ]; do
+    if curl -s http://kafka-connect:8083/ > /dev/null 2>&1; then
+        echo "✅ Kafka Connect is ready!"
+        break
+    fi
+    echo "⏳ Attempt $((ATTEMPT+1))/$MAX_ATTEMPTS: Kafka Connect not ready yet..."
+    sleep 2
+    ATTEMPT=$((ATTEMPT+1))
+done
+
+if [ $ATTEMPT -eq $MAX_ATTEMPTS ]; then
+    echo "❌ ERROR: Kafka Connect did not become ready in time"
+    exit 1
+fi
+
+# Wait a bit more to ensure Kafka Connect is fully initialized
+echo "⏳ Waiting 5 seconds for Kafka Connect to fully initialize..."
+sleep 10
+
+echo "================================================"
+echo "Checking connector status..."
+echo "================================================"
+
+# Check if connector exists
+CONNECTOR_STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://kafka-connect:8083/connectors/smt-postgres-sink)
+
+if [ "$CONNECTOR_STATUS" = "200" ]; then
+    echo "📝 Connector 'smt-postgres-sink' exists. Updating configuration..."
+    
+    # Extract config from JSON file
+    CONFIG=$(cat /config/jdbc-sink-connector.json | jq '.config')
+    
+    # Update connector configuration
+    RESPONSE=$(curl -s -X PUT http://kafka-connect:8083/connectors/smt-postgres-sink/config \
+      -H "Content-Type: application/json" \
+      -d "$CONFIG")
+    
+    if echo "$RESPONSE" | grep -q "\"name\":\"smt-postgres-sink\""; then
+        echo "✅ Connector configuration updated successfully!"
+        echo ""
+        echo "📊 Updated Configuration:"
+        echo "$RESPONSE" | jq '.'
+    else
+        echo "❌ Failed to update connector configuration"
+        echo "Response: $RESPONSE"
+        exit 1
+    fi
+    
+elif [ "$CONNECTOR_STATUS" = "404" ]; then
+    echo "🆕 Connector 'smt-postgres-sink' does not exist. Creating new connector..."
+    
+    # Deploy new connector
+    RESPONSE=$(curl -s -X POST http://kafka-connect:8083/connectors \
+      -H "Content-Type: application/json" \
+      -d @/config/jdbc-sink-connector.json)
+    
+    # Check if deployment was successful
+    if echo "$RESPONSE" | grep -q "\"name\":\"smt-postgres-sink\""; then
+        echo "✅ Connector deployed successfully!"
+        echo ""
+        echo "📊 Connector Configuration:"
+        echo "$RESPONSE" | jq '.'
+    else
+        echo "❌ Failed to deploy connector"
+        echo "Response: $RESPONSE"
+        exit 1
+    fi
+    
+else
+    echo "⚠️ Unexpected status code: $CONNECTOR_STATUS"
+    exit 1
+fi
+
+echo ""
+echo "================================================"
+echo "Verifying connector status..."
+echo "================================================"
+
+# Verify connector is running
+sleep 2
+STATUS=$(curl -s http://kafka-connect:8083/connectors/smt-postgres-sink/status)
+STATE=$(echo "$STATUS" | jq -r '.connector.state')
+
+if [ "$STATE" = "RUNNING" ]; then
+    echo "✅ Connector is RUNNING!"
+    echo ""
+    echo "📊 Connector Status:"
+    echo "$STATUS" | jq '.'
+else
+    echo "⚠️ Connector state: $STATE"
+    echo ""
+    echo "📊 Full Status:"
+    echo "$STATUS" | jq '.'
+fi
+
+echo ""
+echo "================================================"
+echo "✅ Setup complete!"
+echo "================================================"
+echo ""
+echo "🔗 Access points:"
+echo "   - Kafka Connect API: http://kafka-connect:8083"
+echo "   - Redpanda Console: http://localhost:8080"
+echo "   - PostgreSQL: localhost:5432"
+echo ""

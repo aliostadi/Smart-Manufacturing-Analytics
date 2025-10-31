@@ -1,0 +1,310 @@
+services:
+  # ====== Airflow Postgres (metadata DB) ======
+  airflow-postgres:
+    image: postgres:15
+    container_name: airflow-postgres
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    volumes:
+      - airflow_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+    networks:
+      - kafka-network
+
+  # ====== Airflow (scheduler + webserver) ======
+  airflow:
+    image: apache/airflow:2.10.2
+    container_name: airflow
+    depends_on:
+      airflow-postgres:
+        condition: service_healthy
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@airflow-postgres/airflow
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - _PIP_ADDITIONAL_REQUIREMENTS=psycopg2-binary==2.9.9 pandas==2.2.2 dbt-core==1.8.3 dbt-postgres==1.8.2
+      - TZ=Europe/Berlin
+    ports:
+      - "8080:8080"
+    volumes:
+      # Mount your DAGs
+      - ./airflow/dags:/opt/airflow/dags
+      # Optional: mount dbt project so Airflow can run dbt commands
+      - ~/SMTsimulate/dbt/smt_project:/opt/airflow/dbt_project 
+      # Optional: output/log folders
+      - ./airflow/output:/opt/airflow/output
+      - ./airflow/sql:/opt/airflow/sql
+      - ./airflow/logs:/opt/airflow/logs 
+      - ./airflow/start-airflow.sh:/opt/airflow/start-airflow.sh
+    command: >
+        bash /opt/airflow/start-airflow.sh
+    
+    networks:
+      - kafka-network
+
+
+   # ====== Production DB for the SMT line ======
+  postgres:
+    image: postgres:15
+    container_name: smt-postgres
+    environment:
+      - POSTGRES_USER=smtadmin
+      - POSTGRES_PASSWORD=110113
+      - POSTGRES_DB=smt
+      - TZ=Europe/Berlin
+    ports:
+      - "5434:5432"              # connect from Power BI / local tools
+    volumes:
+      # If you want to auto-run SQL on first start, uncomment and put .sql files in ./initdb
+      - ./database/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+      - ./database/postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U smtadmin -d smt"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    networks:
+      - kafka-network
+
+  # ====== pgAdmin (optional GUI for Postgres) ======
+  pgadmin:
+    image: dpage/pgadmin4:8
+    container_name: smt-pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=ali.ostadiy@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+      - TZ=Europe/Berlin
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin  # <--- Persistent config
+    ports:
+      - "5050:80"               # http://localhost:5050  (admin@local / admin)
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - kafka-network
+
+  #dbt
+  dbt:
+    image: ghcr.io/dbt-labs/dbt-postgres:1.8.2
+    container_name: dbt
+    working_dir: /usr/app
+    volumes:
+      - ./dbt/smt_project:/usr/app              # mount your dbt project
+      - ./dbt/smt_project/profiles.yml:/root/.dbt/profiles.yml   # mount the profiles.yml to correct path
+    environment:
+      DBT_PROFILES_DIR: /root/.dbt
+    depends_on:
+      - postgres
+    command: ["run"]
+    networks:
+      - kafka-network
+
+   
+ 
+  # Zookeeper - Required for Kafka
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+    volumes:
+      - zookeeper-data:/var/lib/zookeeper/data
+      - zookeeper-logs:/var/lib/zookeeper/log
+
+    healthcheck:
+      test: ["CMD", "echo", "ruok", "|", "nc", "localhost", "2181"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - kafka-network
+
+  # Kafka Broker
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"  # External access
+      - "9093:9093"  # Internal access
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      
+      # Listener configuration for both internal and external access
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_LISTENERS: INTERNAL://0.0.0.0:9093,EXTERNAL://0.0.0.0:9092
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:9093,EXTERNAL://localhost:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      
+      # Other Kafka settings
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
+    volumes:
+      - ./kafka/kafka-broker/kafka-data:/var/lib/kafka/data
+      - ./kafka/kafka-broker/kafka-logs:/var/log/kafka
+    networks:
+      - kafka-network
+    healthcheck:
+      test: ["CMD", "kafka-broker-api-versions", "--bootstrap-server", "localhost:9092"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+
+    # Kafka Connect
+  kafka-connect:
+    image: aliostadi/kafka-connect-jdbc_with_connectors:latest
+    container_name: kafka-connect
+    depends_on:
+      kafka:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8083:8083"
+    environment:
+      CONNECT_BOOTSTRAP_SERVERS: kafka:9093
+      CONNECT_REST_PORT: 8083
+      CONNECT_REST_ADVERTISED_HOST_NAME: kafka-connect
+      CONNECT_GROUP_ID: kafka-connect-group
+      CONNECT_CONFIG_STORAGE_TOPIC: _connect-configs
+      CONNECT_OFFSET_STORAGE_TOPIC: _connect-offsets
+      CONNECT_STATUS_STORAGE_TOPIC: _connect-status
+      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_KEY_CONVERTER_SCHEMAS_ENABLE: 'false'
+      CONNECT_VALUE_CONVERTER_SCHEMAS_ENABLE: 'false'
+      CONNECT_INTERNAL_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_INTERNAL_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_LOG4J_ROOT_LOGLEVEL: INFO
+      CONNECT_LOG4J_LOGGERS: org.reflections=ERROR
+      CONNECT_PLUGIN_PATH: /usr/share/java,/usr/share/confluent-hub-components
+    volumes:
+      - ./kafka/kafka-connect/kafka-connect-data:/var/lib/kafka/data
+    networks:
+      - kafka-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+      start_period: 120s
+
+  # Connector Deployer - Automatically deploys/updates JDBC connector
+  connector-deployer:
+    image: alpine:latest
+    container_name: connector-deployer
+    depends_on:
+      kafka-connect:
+        condition: service_healthy
+    volumes:
+      - ./kafka/kafka-connect/jdbc-sink-connector.json:/config/jdbc-sink-connector.json:ro
+      - ./kafka/kafka-connect/deploy-connector.sh:/deploy-connector.sh
+    networks:
+      - kafka-network
+    command: >
+      sh -c "
+      apk add --no-cache curl jq bash &&
+      chmod +x /deploy-connector.sh &&
+      bash /deploy-connector.sh
+      "
+    restart: "on-failure"
+
+
+
+
+  # Redpanda Console - Kafka UI for monitoring
+  redpanda-console:
+    image: redpandadata/console:latest
+    container_name: redpanda-console
+    depends_on:
+      kafka:
+         condition: service_healthy
+    ports:
+      - "8081:8080"
+    environment:
+      KAFKA_BROKERS: kafka:9093
+      KAFKA_SCHEMAREGISTRY_ENABLED: 'false'
+      KAFKA_CONNECT_ENABLED: 'true'
+      CONNECT_CLUSTERS_0_NAME: local-connect
+      CONNECT_CLUSTERS_0_URL: http://kafka-connect:8083
+
+      
+    networks:
+      - kafka-network
+    restart: unless-stopped
+
+   # Eclipse Mosquitto MQTT Broker
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto
+    ports:
+      - "1883:1883"  # MQTT
+      - "9001:9001"  # WebSockets
+    volumes:
+      - ./mosquitto/mosquitto-data:/mosquitto/data
+      - ./mosquitto/mosquitto-log:/mosquitto/log
+      - ./mosquitto/mosquittoconfig.conf:/mosquitto/config/mosquitto.conf  
+  
+    networks:
+      - kafka-network
+    restart: unless-stopped
+
+
+  # Node-RED
+  nodered:
+    image: nodered/node-red:latest
+    container_name: nodered
+    depends_on:
+      kafka:
+        condition: service_healthy
+    ports:
+      - "1881:1880"
+    environment:
+      - TZ=Europe/Berlin
+    volumes:
+      - ./nodered-data:/data
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    networks:
+      - kafka-network
+    restart: unless-stopped
+
+ 
+
+    
+  
+
+
+
+
+volumes:
+  
+  airflow_pgdata:
+  pgadmin_data:
+  zookeeper-data:
+  zookeeper-logs:
+  
+
+networks:
+  kafka-network:
+    driver: bridge

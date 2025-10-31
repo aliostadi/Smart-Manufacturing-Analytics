@@ -1,0 +1,1155 @@
+[2025-10-27T23:16:37.404+0100] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:16:37.408+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:16:37.420+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:16:37.419+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:16:37.501+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:16:37.650+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:16:37.649+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:16:37.764+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:16:37.763+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:16:37.841+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.477 seconds
+[2025-10-27T23:17:08.304+0100] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:17:08.314+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:17:08.340+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:17:08.337+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:17:08.486+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:17:08.781+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:17:08.774+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:17:09.110+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:17:09.108+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:17:09.242+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 1.014 seconds
+[2025-10-27T23:17:39.968+0100] {processor.py:186} INFO - Started process (PID=315) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:17:39.971+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:17:39.985+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:17:39.982+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:17:40.207+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:17:40.545+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:17:40.544+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:17:40.762+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:17:40.761+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:17:40.899+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.954 seconds
+[2025-10-27T23:18:11.381+0100] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:18:11.385+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:18:11.402+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:18:11.396+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:18:11.451+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:18:11.556+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:18:11.555+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:18:11.674+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:18:11.673+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:18:11.764+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.406 seconds
+[2025-10-27T23:18:42.143+0100] {processor.py:186} INFO - Started process (PID=335) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:18:42.147+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:18:42.159+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:18:42.157+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:18:42.209+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:18:42.365+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:18:42.364+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:18:42.476+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:18:42.475+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:18:42.558+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.447 seconds
+[2025-10-27T23:19:12.943+0100] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:19:12.947+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:19:12.957+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:19:12.955+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:19:13.010+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:19:13.131+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:19:13.130+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:19:13.242+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:19:13.241+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:19:13.302+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.379 seconds
+[2025-10-27T23:19:43.594+0100] {processor.py:186} INFO - Started process (PID=345) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:19:43.596+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:19:43.599+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:19:43.598+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:19:43.614+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:19:43.651+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:19:43.650+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:19:43.681+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:19:43.680+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:19:43.705+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.118 seconds
+[2025-10-27T23:20:13.801+0100] {processor.py:186} INFO - Started process (PID=350) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:20:13.802+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:20:13.805+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:20:13.805+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:20:13.820+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:20:13.859+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:20:13.859+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:20:13.889+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:20:13.889+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:20:13.911+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.119 seconds
+[2025-10-27T23:20:44.183+0100] {processor.py:186} INFO - Started process (PID=355) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:20:44.185+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:20:44.189+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:20:44.188+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:20:44.206+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:20:44.251+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:20:44.250+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:20:44.298+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:20:44.298+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:20:44.333+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.160 seconds
+[2025-10-27T23:21:14.477+0100] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:21:14.479+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:21:14.484+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:21:14.483+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:21:14.502+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:21:14.564+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:21:14.563+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:21:14.632+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:21:14.632+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:21:14.676+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.211 seconds
+[2025-10-27T23:21:44.891+0100] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:21:44.894+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:21:44.901+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:21:44.900+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:21:44.942+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:21:45.030+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:21:45.029+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:21:45.096+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:21:45.096+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:21:45.135+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.256 seconds
+[2025-10-27T23:22:15.184+0100] {processor.py:186} INFO - Started process (PID=370) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:22:15.186+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:22:15.189+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:22:15.188+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:22:15.203+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:22:15.240+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:22:15.240+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:22:15.270+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:22:15.270+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:22:15.293+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.118 seconds
+[2025-10-27T23:22:45.496+0100] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:22:45.499+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:22:45.507+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:22:45.506+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:22:45.550+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:22:45.615+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:22:45.615+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:22:45.668+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:22:45.667+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:22:45.709+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.233 seconds
+[2025-10-27T23:23:15.937+0100] {processor.py:186} INFO - Started process (PID=380) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:23:15.939+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:23:15.942+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:23:15.941+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:23:15.956+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:23:15.994+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:23:15.994+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:23:16.048+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:23:16.047+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:23:16.074+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.143 seconds
+[2025-10-27T23:23:46.160+0100] {processor.py:186} INFO - Started process (PID=385) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:23:46.162+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:23:46.166+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:23:46.165+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:23:46.188+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:23:46.244+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:23:46.244+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:23:48.046+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:23:48.045+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:23:48.068+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 1.919 seconds
+[2025-10-27T23:24:18.333+0100] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:24:18.335+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:24:18.338+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:24:18.337+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:24:18.352+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:24:18.405+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:24:18.405+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:24:18.653+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:24:18.652+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:24:18.700+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.374 seconds
+[2025-10-27T23:24:48.915+0100] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:24:48.917+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:24:48.920+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:24:48.920+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:24:48.934+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:24:49.134+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:24:49.134+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:24:49.161+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:24:49.161+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:24:49.191+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.284 seconds
+[2025-10-27T23:25:19.436+0100] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:25:19.441+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:25:19.449+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:25:19.447+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:25:19.496+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:25:19.538+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:25:19.537+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:25:19.569+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:25:19.568+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:25:19.592+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.164 seconds
+[2025-10-27T23:25:49.664+0100] {processor.py:186} INFO - Started process (PID=405) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:25:49.666+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:25:49.670+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:25:49.669+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:25:49.684+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:25:49.722+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:25:49.722+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:25:49.752+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:25:49.752+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:25:49.775+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.122 seconds
+[2025-10-27T23:26:19.981+0100] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:26:19.993+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:26:19.998+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:26:19.997+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:26:20.019+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:26:20.075+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:26:20.074+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:26:20.156+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:26:20.155+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:26:20.422+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.450 seconds
+[2025-10-27T23:26:50.716+0100] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:26:50.718+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:26:50.720+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:26:50.720+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:26:50.736+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:26:50.772+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:26:50.771+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:26:50.981+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:26:50.980+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:26:50.998+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.290 seconds
+[2025-10-27T23:27:21.274+0100] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:27:21.283+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:27:21.286+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:27:21.286+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:27:21.301+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:27:21.335+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:27:21.334+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:27:21.993+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:27:21.993+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:27:22.014+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.745 seconds
+[2025-10-27T23:27:52.204+0100] {processor.py:186} INFO - Started process (PID=425) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:27:52.207+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:27:52.213+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:27:52.212+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:27:52.252+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:27:52.516+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:27:52.515+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:27:52.543+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:27:52.543+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:27:52.563+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.376 seconds
+[2025-10-27T23:28:22.720+0100] {processor.py:186} INFO - Started process (PID=430) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:28:22.722+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:28:22.727+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:28:22.726+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:28:22.756+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:28:22.868+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:28:22.868+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:28:23.006+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:28:23.005+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:28:23.101+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.398 seconds
+[2025-10-27T23:28:53.387+0100] {processor.py:186} INFO - Started process (PID=435) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:28:53.389+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:28:53.394+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:28:53.393+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:28:53.410+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:28:53.460+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:28:53.460+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:28:53.496+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:28:53.496+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:28:53.524+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.147 seconds
+[2025-10-27T23:29:23.599+0100] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:29:23.601+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:29:23.604+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:29:23.603+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:29:23.620+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:29:23.657+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:29:23.656+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:29:23.688+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:29:23.688+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:29:23.709+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.120 seconds
+[2025-10-27T23:29:53.863+0100] {processor.py:186} INFO - Started process (PID=445) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:29:53.865+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:29:53.867+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:29:53.867+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:29:53.881+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:29:53.919+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:29:53.919+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:29:53.949+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:29:53.948+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:29:53.971+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.118 seconds
+[2025-10-27T23:30:24.219+0100] {processor.py:186} INFO - Started process (PID=450) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:30:24.225+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:30:24.241+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:30:24.239+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:30:24.306+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:30:24.373+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:30:24.372+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:30:24.415+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:30:24.414+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:30:24.442+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.258 seconds
+[2025-10-27T23:30:54.499+0100] {processor.py:186} INFO - Started process (PID=455) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:30:54.501+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:30:54.504+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:30:54.503+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:30:54.522+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:30:54.554+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:30:54.554+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:30:54.583+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:30:54.583+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:30:54.603+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.113 seconds
+[2025-10-27T23:31:24.775+0100] {processor.py:186} INFO - Started process (PID=460) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:31:24.777+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:31:24.781+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:31:24.781+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:31:24.798+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:31:24.841+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:31:24.841+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:31:24.890+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:31:24.889+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:31:24.914+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.147 seconds
+[2025-10-27T23:31:55.131+0100] {processor.py:186} INFO - Started process (PID=465) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:31:55.133+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:31:55.136+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:31:55.136+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:31:55.150+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:31:55.187+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:31:55.186+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:31:55.233+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:31:55.233+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:31:55.251+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.129 seconds
+[2025-10-27T23:32:25.376+0100] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:32:25.380+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:32:25.383+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:32:25.383+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:32:25.397+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:32:25.438+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:32:25.437+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:32:25.468+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:32:25.468+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:32:25.489+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.124 seconds
+[2025-10-27T23:32:55.768+0100] {processor.py:186} INFO - Started process (PID=475) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:32:55.770+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:32:55.777+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:32:55.776+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:32:55.793+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:32:55.825+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:32:55.825+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:32:55.851+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:32:55.851+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:32:55.871+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.114 seconds
+[2025-10-27T23:33:26.020+0100] {processor.py:186} INFO - Started process (PID=480) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:33:26.022+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:33:26.025+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:33:26.024+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:33:26.045+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:33:26.086+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:33:26.086+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:33:26.115+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:33:26.114+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:33:26.136+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.124 seconds
+[2025-10-27T23:33:56.363+0100] {processor.py:186} INFO - Started process (PID=485) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:33:56.365+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:33:56.369+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:33:56.369+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:33:56.392+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:33:56.448+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:33:56.448+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:33:56.561+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:33:56.560+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:33:56.592+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.242 seconds
+[2025-10-27T23:34:26.876+0100] {processor.py:186} INFO - Started process (PID=490) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:34:26.878+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:34:26.879+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:34:26.879+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:34:26.891+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:34:26.923+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:34:26.922+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:34:26.950+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:34:26.949+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:34:26.970+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.104 seconds
+[2025-10-27T23:34:57.147+0100] {processor.py:186} INFO - Started process (PID=495) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:34:57.149+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:34:57.151+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:34:57.151+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:34:57.166+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:34:57.204+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:34:57.204+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:34:57.240+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:34:57.239+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:34:57.262+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.123 seconds
+[2025-10-27T23:35:27.491+0100] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:35:27.493+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:35:27.497+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:35:27.497+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:35:27.518+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:35:27.576+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:35:27.575+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:35:27.629+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:35:27.629+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:35:27.662+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.184 seconds
+[2025-10-27T23:35:57.826+0100] {processor.py:186} INFO - Started process (PID=505) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:35:57.830+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:35:57.843+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:35:57.841+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:35:57.879+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:35:57.998+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:35:57.997+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:35:58.066+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:35:58.065+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:35:58.116+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.318 seconds
+[2025-10-27T23:36:28.195+0100] {processor.py:186} INFO - Started process (PID=510) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:36:28.206+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:36:28.212+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:36:28.209+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:36:28.248+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:36:28.303+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:36:28.302+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:36:28.354+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:36:28.353+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:36:28.393+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.210 seconds
+[2025-10-27T23:36:58.629+0100] {processor.py:186} INFO - Started process (PID=515) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:36:58.631+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:36:58.636+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:36:58.636+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:36:58.661+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:36:58.709+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:36:58.708+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:36:58.745+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:36:58.745+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:36:58.775+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.160 seconds
+[2025-10-27T23:37:28.865+0100] {processor.py:186} INFO - Started process (PID=520) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:37:28.867+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:37:28.869+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:37:28.869+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:37:28.883+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:37:28.923+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:37:28.923+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:37:28.989+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:37:28.989+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:37:29.018+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.163 seconds
+[2025-10-27T23:37:59.250+0100] {processor.py:186} INFO - Started process (PID=525) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:37:59.252+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:37:59.254+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:37:59.254+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:37:59.269+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:37:59.326+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:37:59.325+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:37:59.362+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:37:59.362+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:37:59.394+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.152 seconds
+[2025-10-27T23:38:29.494+0100] {processor.py:186} INFO - Started process (PID=530) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:38:29.495+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:38:29.498+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:38:29.498+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:38:29.513+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:38:29.549+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:38:29.549+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:38:29.582+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:38:29.582+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:38:29.602+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.117 seconds
+[2025-10-27T23:38:59.694+0100] {processor.py:186} INFO - Started process (PID=535) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:38:59.696+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:38:59.699+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:38:59.699+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:38:59.721+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:38:59.767+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:38:59.766+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:38:59.798+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:38:59.797+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:38:59.820+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.134 seconds
+[2025-10-27T23:39:30.128+0100] {processor.py:186} INFO - Started process (PID=540) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:39:30.131+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:39:30.135+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:39:30.134+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:39:30.149+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:39:30.186+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:39:30.185+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:39:30.215+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:39:30.215+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:39:30.235+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.136 seconds
+[2025-10-27T23:40:00.332+0100] {processor.py:186} INFO - Started process (PID=545) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:40:00.334+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:40:00.337+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:40:00.337+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:40:00.351+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:40:00.395+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:40:00.394+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:40:00.428+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:40:00.428+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:40:00.449+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.125 seconds
+[2025-10-27T23:40:30.685+0100] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:40:30.689+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:40:30.698+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:40:30.697+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:40:30.727+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:40:30.772+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:40:30.771+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:40:30.809+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:40:30.809+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:40:30.837+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.175 seconds
+[2025-10-27T23:41:00.987+0100] {processor.py:186} INFO - Started process (PID=555) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:41:00.989+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:41:00.996+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:41:00.995+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:41:01.022+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:41:01.078+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:41:01.078+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:41:01.119+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:41:01.119+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:41:01.150+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.188 seconds
+[2025-10-27T23:41:31.322+0100] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:41:31.332+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:41:31.338+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:41:31.337+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:41:31.355+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:41:31.395+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:41:31.395+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:41:31.424+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:41:31.424+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:41:31.445+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.131 seconds
+[2025-10-27T23:42:01.658+0100] {processor.py:186} INFO - Started process (PID=565) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:42:01.661+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:42:01.668+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:42:01.667+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:42:01.691+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:42:01.727+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:42:01.726+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:42:01.758+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:42:01.757+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:42:01.778+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.133 seconds
+[2025-10-27T23:42:31.864+0100] {processor.py:186} INFO - Started process (PID=570) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:42:31.866+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:42:31.868+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:42:31.868+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:42:31.882+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:42:31.916+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:42:31.915+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:42:31.948+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:42:31.947+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:42:31.973+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.118 seconds
+[2025-10-27T23:43:02.107+0100] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:43:02.117+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:43:02.120+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:43:02.120+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:43:02.139+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:43:02.192+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:43:02.192+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:43:02.240+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:43:02.240+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:43:02.271+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.178 seconds
+[2025-10-27T23:43:32.418+0100] {processor.py:186} INFO - Started process (PID=580) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:43:32.420+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:43:32.423+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:43:32.422+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:43:32.439+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:43:32.483+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:43:32.483+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:43:32.517+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:43:32.517+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:43:32.543+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.132 seconds
+[2025-10-27T23:44:02.723+0100] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:44:02.726+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:44:02.732+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:44:02.731+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:44:02.769+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:44:02.861+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:44:02.860+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:44:02.965+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:44:02.964+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:44:03.027+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.321 seconds
+[2025-10-27T23:44:33.322+0100] {processor.py:186} INFO - Started process (PID=590) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:44:33.323+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:44:33.326+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:44:33.326+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:44:33.338+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:44:33.378+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:44:33.378+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:44:33.411+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:44:33.411+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:44:33.438+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.121 seconds
+[2025-10-27T23:45:03.610+0100] {processor.py:186} INFO - Started process (PID=595) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:45:03.613+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:45:03.621+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:45:03.619+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:45:03.648+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:45:03.710+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:45:03.709+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:45:03.762+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:45:03.761+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:45:03.800+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.207 seconds
+[2025-10-27T23:45:33.953+0100] {processor.py:186} INFO - Started process (PID=600) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:45:33.955+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:45:33.959+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:45:33.959+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:45:33.974+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:45:34.013+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:45:34.012+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:45:34.048+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:45:34.048+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:45:34.075+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.129 seconds
+[2025-10-27T23:46:04.319+0100] {processor.py:186} INFO - Started process (PID=605) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:46:04.322+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:46:04.326+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:46:04.325+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:46:04.337+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:46:04.371+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:46:04.370+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:46:04.402+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:46:04.402+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:46:04.427+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.120 seconds
+[2025-10-27T23:46:34.575+0100] {processor.py:186} INFO - Started process (PID=610) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:46:34.577+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:46:34.582+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:46:34.581+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:46:34.602+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:46:34.643+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:46:34.643+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:46:34.683+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:46:34.683+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:46:34.723+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.161 seconds
+[2025-10-27T23:47:04.969+0100] {processor.py:186} INFO - Started process (PID=615) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:47:04.970+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:47:04.973+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:47:04.973+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:47:04.989+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:47:05.056+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:47:05.055+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:47:05.157+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:47:05.157+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:47:05.239+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.279 seconds
+[2025-10-27T23:47:35.571+0100] {processor.py:186} INFO - Started process (PID=620) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:47:35.573+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:47:35.577+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:47:35.576+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:47:35.590+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:47:35.629+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:47:35.629+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:47:35.660+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:47:35.660+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:47:35.689+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.124 seconds
+[2025-10-27T23:48:05.871+0100] {processor.py:186} INFO - Started process (PID=625) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:48:05.881+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:48:05.884+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:48:05.884+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:48:05.898+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:48:05.938+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:48:05.938+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:48:05.978+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:48:05.978+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:48:06.004+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.140 seconds
+[2025-10-27T23:48:36.255+0100] {processor.py:186} INFO - Started process (PID=630) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:48:36.256+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:48:36.262+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:48:36.261+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:48:36.287+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:48:36.359+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:48:36.359+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:48:36.417+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:48:36.417+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:48:36.455+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.210 seconds
+[2025-10-27T23:49:06.495+0100] {processor.py:186} INFO - Started process (PID=635) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:49:06.497+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:49:06.500+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:49:06.500+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:49:06.514+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:49:06.554+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:49:06.553+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:49:06.591+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:49:06.591+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:49:06.612+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.124 seconds
+[2025-10-27T23:49:36.735+0100] {processor.py:186} INFO - Started process (PID=640) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:49:36.737+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:49:36.741+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:49:36.740+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:49:36.755+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:49:36.798+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:49:36.798+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:49:36.830+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:49:36.830+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:49:36.851+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.125 seconds
+[2025-10-27T23:50:07.029+0100] {processor.py:186} INFO - Started process (PID=645) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:50:07.031+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:50:07.034+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:50:07.033+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:50:07.049+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:50:07.088+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:50:07.088+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:50:07.118+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:50:07.118+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:50:07.137+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.117 seconds
+[2025-10-27T23:50:37.255+0100] {processor.py:186} INFO - Started process (PID=650) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:50:37.257+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:50:37.260+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:50:37.259+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:50:37.274+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:50:37.311+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:50:37.311+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:50:37.341+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:50:37.341+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:50:37.367+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.121 seconds
+[2025-10-27T23:51:07.581+0100] {processor.py:186} INFO - Started process (PID=655) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:51:07.583+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:51:07.587+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:51:07.587+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:51:07.604+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:51:07.654+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:51:07.654+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:51:07.688+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:51:07.688+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:51:07.713+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.144 seconds
+[2025-10-27T23:51:37.820+0100] {processor.py:186} INFO - Started process (PID=660) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:51:37.830+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:51:37.832+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:51:37.831+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:51:37.849+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:51:37.893+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:51:37.892+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:51:37.923+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:51:37.923+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:51:37.945+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.133 seconds
+[2025-10-27T23:52:08.166+0100] {processor.py:186} INFO - Started process (PID=665) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:52:08.168+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:52:08.172+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:52:08.172+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:52:08.188+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:52:08.222+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:52:08.221+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:52:08.251+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:52:08.251+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:52:08.272+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.114 seconds
+[2025-10-27T23:52:38.394+0100] {processor.py:186} INFO - Started process (PID=670) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:52:38.406+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:52:38.412+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:52:38.411+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:52:38.434+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:52:38.495+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:52:38.494+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:52:38.579+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:52:38.578+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:52:38.629+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.243 seconds
+[2025-10-27T23:53:08.752+0100] {processor.py:186} INFO - Started process (PID=675) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:53:08.763+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:53:08.771+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:53:08.770+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:53:08.799+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:53:08.857+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:53:08.856+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:53:08.904+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:53:08.904+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:53:08.947+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.222 seconds
+[2025-10-27T23:53:39.134+0100] {processor.py:186} INFO - Started process (PID=680) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:53:39.137+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:53:39.142+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:53:39.141+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:53:39.166+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:53:39.229+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:53:39.229+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:53:39.272+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:53:39.271+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:53:39.303+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.184 seconds
+[2025-10-27T23:54:09.432+0100] {processor.py:186} INFO - Started process (PID=685) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:54:09.433+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:54:09.437+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:54:09.436+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:54:09.450+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:54:09.501+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:54:09.500+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:54:09.542+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:54:09.542+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:54:09.568+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.145 seconds
+[2025-10-27T23:54:39.794+0100] {processor.py:186} INFO - Started process (PID=690) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:54:39.804+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:54:39.807+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:54:39.807+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:54:39.825+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:54:39.861+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:54:39.861+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:54:39.893+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:54:39.893+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:54:39.930+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.146 seconds
+[2025-10-27T23:55:10.061+0100] {processor.py:186} INFO - Started process (PID=695) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:55:10.065+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:55:10.074+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:55:10.073+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:55:10.102+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:55:10.161+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:55:10.161+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:55:10.206+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:55:10.205+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:55:10.234+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.188 seconds
+[2025-10-27T23:55:40.399+0100] {processor.py:186} INFO - Started process (PID=700) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:55:40.401+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:55:40.404+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:55:40.404+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:55:40.420+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:55:40.457+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:55:40.457+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:55:40.486+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:55:40.486+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:55:40.510+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.119 seconds
+[2025-10-27T23:56:10.701+0100] {processor.py:186} INFO - Started process (PID=705) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:56:10.710+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:56:10.714+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:56:10.713+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:56:10.762+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:56:10.823+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:56:10.823+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:56:10.853+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:56:10.853+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:56:10.874+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.182 seconds
+[2025-10-27T23:56:40.989+0100] {processor.py:186} INFO - Started process (PID=710) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:56:40.990+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:56:40.994+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:56:40.993+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:56:41.008+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:56:41.051+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:56:41.051+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:56:41.086+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:56:41.086+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:56:41.106+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.125 seconds
+[2025-10-27T23:57:11.346+0100] {processor.py:186} INFO - Started process (PID=715) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:57:11.358+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:57:11.362+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:57:11.362+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:57:11.381+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:57:11.430+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:57:11.430+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:57:11.490+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:57:11.489+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:57:11.538+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.213 seconds
+[2025-10-27T23:57:41.827+0100] {processor.py:186} INFO - Started process (PID=720) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:57:41.829+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:57:41.832+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:57:41.831+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:57:41.846+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:57:41.882+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:57:41.882+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:57:41.911+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:57:41.911+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:57:41.940+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.126 seconds
+[2025-10-27T23:58:12.038+0100] {processor.py:186} INFO - Started process (PID=725) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:58:12.040+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:58:12.043+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:58:12.043+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:58:12.059+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:58:12.101+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:58:12.101+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:58:12.134+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:58:12.134+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:58:12.155+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.127 seconds
+[2025-10-27T23:58:42.393+0100] {processor.py:186} INFO - Started process (PID=730) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:58:42.394+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:58:42.398+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:58:42.397+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:58:42.412+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:58:42.451+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:58:42.450+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:58:42.486+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:58:42.486+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:58:42.506+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.122 seconds
+[2025-10-27T23:59:12.618+0100] {processor.py:186} INFO - Started process (PID=735) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:59:12.628+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:59:12.630+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:59:12.630+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:59:12.644+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:59:12.680+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:59:12.679+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:59:12.710+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:59:12.710+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:59:12.735+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.125 seconds
+[2025-10-27T23:59:42.943+0100] {processor.py:186} INFO - Started process (PID=740) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:59:42.944+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-27T23:59:42.948+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:59:42.947+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:59:42.961+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-27T23:59:42.997+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:59:42.997+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T23:59:43.025+0100] {logging_mixin.py:190} INFO - [2025-10-27T23:59:43.025+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 22:00:00+00:00, run_after=2025-10-27 23:00:00+00:00
+[2025-10-27T23:59:43.046+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.111 seconds
+[2025-10-28T00:00:13.238+0100] {processor.py:186} INFO - Started process (PID=751) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:00:13.240+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:00:13.243+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:00:13.242+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:00:13.265+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:00:13.312+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:00:13.312+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:00:13.349+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:00:13.349+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:00:13.380+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.151 seconds
+[2025-10-28T00:00:43.585+0100] {processor.py:186} INFO - Started process (PID=767) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:00:43.587+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:00:43.592+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:00:43.592+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:00:43.612+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:00:43.661+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:00:43.660+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:00:43.708+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:00:43.708+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:00:43.731+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.161 seconds
+[2025-10-28T00:01:13.890+0100] {processor.py:186} INFO - Started process (PID=772) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:01:13.892+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:01:13.897+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:01:13.896+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:01:13.914+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:01:13.963+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:01:13.963+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:01:13.997+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:01:13.997+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:01:14.019+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.139 seconds
+[2025-10-28T00:01:44.309+0100] {processor.py:186} INFO - Started process (PID=777) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:01:44.312+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:01:44.320+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:01:44.319+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:01:44.356+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:01:44.433+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:01:44.432+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:01:44.496+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:01:44.496+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:01:44.547+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.258 seconds
+[2025-10-28T00:02:14.795+0100] {processor.py:186} INFO - Started process (PID=782) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:02:14.805+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:02:14.810+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:02:14.809+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:02:14.825+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:02:14.862+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:02:14.862+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:02:14.894+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:02:14.893+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:02:14.914+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.129 seconds
+[2025-10-28T00:02:45.020+0100] {processor.py:186} INFO - Started process (PID=787) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:02:45.023+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:02:45.027+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:02:45.026+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:02:45.045+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:02:45.109+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:02:45.109+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:02:45.235+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:02:45.235+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:02:45.308+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.298 seconds
+[2025-10-28T00:03:15.375+0100] {processor.py:186} INFO - Started process (PID=792) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:03:15.376+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:03:15.379+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:03:15.379+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:03:15.394+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:03:15.437+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:03:15.436+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:03:15.469+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:03:15.469+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:03:15.493+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.128 seconds
+[2025-10-28T00:03:45.615+0100] {processor.py:186} INFO - Started process (PID=797) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:03:45.618+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:03:45.623+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:03:45.622+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:03:45.650+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:03:45.721+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:03:45.721+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:03:45.783+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:03:45.782+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:03:45.820+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.221 seconds
+[2025-10-28T00:04:15.976+0100] {processor.py:186} INFO - Started process (PID=802) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:04:15.977+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:04:15.980+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:04:15.979+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:04:15.993+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:04:16.040+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:04:16.040+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:04:16.079+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:04:16.079+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:04:16.100+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.132 seconds
+[2025-10-28T00:04:46.318+0100] {processor.py:186} INFO - Started process (PID=807) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:04:46.328+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:04:46.331+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:04:46.330+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:04:46.347+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:04:46.383+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:04:46.383+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:04:46.415+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:04:46.414+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:04:46.438+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.128 seconds
+[2025-10-28T00:05:16.592+0100] {processor.py:186} INFO - Started process (PID=812) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:05:16.594+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:05:16.597+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:05:16.597+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:05:16.611+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:05:16.645+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:05:16.645+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:05:16.683+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:05:16.682+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:05:16.712+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.129 seconds
+[2025-10-28T00:05:46.896+0100] {processor.py:186} INFO - Started process (PID=817) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:05:46.906+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:05:46.911+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:05:46.910+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:05:46.932+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:05:46.982+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:05:46.982+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:05:47.026+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:05:47.026+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:05:47.056+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.172 seconds
+[2025-10-28T00:06:17.150+0100] {processor.py:186} INFO - Started process (PID=822) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:06:17.159+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:06:17.162+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:06:17.161+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:06:17.174+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:06:17.210+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:06:17.210+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:06:17.258+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:06:17.257+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:06:17.288+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.147 seconds
+[2025-10-28T00:06:47.528+0100] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:06:47.530+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:06:47.532+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:06:47.532+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:06:47.547+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:06:47.588+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:06:47.588+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:06:47.619+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:06:47.619+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:06:47.641+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.123 seconds
+[2025-10-28T00:07:17.742+0100] {processor.py:186} INFO - Started process (PID=832) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:07:17.743+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:07:17.746+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:07:17.746+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:07:17.760+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:07:17.813+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:07:17.812+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:07:17.847+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:07:17.847+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:07:17.869+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.135 seconds
+[2025-10-28T00:07:48.081+0100] {processor.py:186} INFO - Started process (PID=837) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:07:48.083+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:07:48.086+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:07:48.085+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:07:48.101+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:07:48.141+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:07:48.141+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:07:48.191+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:07:48.190+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:07:48.223+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.150 seconds
+[2025-10-28T00:08:18.320+0100] {processor.py:186} INFO - Started process (PID=842) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:08:18.321+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:08:18.325+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:08:18.324+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:08:18.339+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:08:18.384+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:08:18.384+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:08:18.415+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:08:18.415+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:08:18.440+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.130 seconds
+[2025-10-28T00:08:48.548+0100] {processor.py:186} INFO - Started process (PID=847) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:08:48.559+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:08:48.562+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:08:48.562+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:08:48.575+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:08:48.612+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:08:48.612+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:08:48.642+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:08:48.641+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:08:48.667+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.126 seconds
+[2025-10-28T00:09:18.892+0100] {processor.py:186} INFO - Started process (PID=852) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:09:18.894+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:09:18.899+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:09:18.899+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:09:18.914+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:09:18.954+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:09:18.954+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:09:18.982+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:09:18.982+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:09:19.002+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.120 seconds
+[2025-10-28T00:09:49.097+0100] {processor.py:186} INFO - Started process (PID=857) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:09:49.107+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:09:49.110+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:09:49.109+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:09:49.123+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:09:49.161+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:09:49.160+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:09:49.215+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:09:49.215+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:09:49.262+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.175 seconds
+[2025-10-28T00:10:19.483+0100] {processor.py:186} INFO - Started process (PID=862) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:10:19.486+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:10:19.491+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:10:19.490+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:10:19.513+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:10:19.609+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:10:19.608+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:10:19.655+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:10:19.655+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:10:19.678+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.212 seconds
+[2025-10-28T00:10:49.740+0100] {processor.py:186} INFO - Started process (PID=867) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:10:49.742+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:10:49.745+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:10:49.744+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:10:49.760+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:10:49.818+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:10:49.817+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:10:49.870+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:10:49.869+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:10:49.903+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.174 seconds
+[2025-10-28T00:11:20.184+0100] {processor.py:186} INFO - Started process (PID=872) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:11:20.186+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:11:20.189+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:11:20.188+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:11:20.202+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:11:20.242+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:11:20.241+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:11:20.269+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:11:20.269+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:11:20.288+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.112 seconds
+[2025-10-28T00:11:50.481+0100] {processor.py:186} INFO - Started process (PID=877) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:11:50.491+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:11:50.496+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:11:50.495+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:11:50.511+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:11:50.552+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:11:50.552+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:11:50.588+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:11:50.588+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:11:50.616+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.145 seconds
+[2025-10-28T00:12:20.777+0100] {processor.py:186} INFO - Started process (PID=882) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:12:20.779+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:12:20.782+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:12:20.781+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:12:20.796+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:12:20.834+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:12:20.833+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:12:20.870+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:12:20.870+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:12:20.892+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.123 seconds
+[2025-10-28T00:12:51.113+0100] {processor.py:186} INFO - Started process (PID=887) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:12:51.115+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:12:51.125+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:12:51.124+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:12:51.151+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:12:51.220+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:12:51.219+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:12:51.259+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:12:51.258+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:12:51.281+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.179 seconds
+[2025-10-28T00:13:21.347+0100] {processor.py:186} INFO - Started process (PID=892) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:13:21.349+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:13:21.354+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:13:21.353+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:13:21.371+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:13:21.417+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:13:21.417+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:13:21.459+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:13:21.458+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:13:21.496+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.159 seconds
+[2025-10-28T00:13:51.758+0100] {processor.py:186} INFO - Started process (PID=897) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:13:51.759+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:13:51.763+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:13:51.762+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:13:51.784+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:13:51.841+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:13:51.840+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:13:51.880+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:13:51.880+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:13:51.925+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.177 seconds
+[2025-10-28T00:14:21.998+0100] {processor.py:186} INFO - Started process (PID=902) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:14:22.008+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:14:22.011+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:14:22.011+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:14:22.031+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:14:22.082+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:14:22.082+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:14:22.127+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:14:22.127+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:14:22.157+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.171 seconds
+[2025-10-28T00:14:52.464+0100] {processor.py:186} INFO - Started process (PID=907) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:14:52.468+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:14:52.477+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:14:52.476+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:14:52.516+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:14:52.596+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:14:52.595+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:14:52.654+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:14:52.653+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:14:52.690+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.242 seconds
+[2025-10-28T00:15:22.920+0100] {processor.py:186} INFO - Started process (PID=912) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:15:22.930+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:15:22.933+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:15:22.932+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:15:22.946+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:15:22.983+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:15:22.982+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:15:23.012+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:15:23.012+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:15:23.038+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.126 seconds
+[2025-10-28T00:15:53.137+0100] {processor.py:186} INFO - Started process (PID=917) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:15:53.148+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:15:53.150+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:15:53.150+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:15:53.163+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:15:53.209+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:15:53.209+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:15:53.240+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:15:53.240+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:15:53.264+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.137 seconds
+[2025-10-28T00:16:23.516+0100] {processor.py:186} INFO - Started process (PID=922) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:16:23.527+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:16:23.529+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:16:23.529+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:16:23.546+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:16:23.592+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:16:23.591+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:16:23.628+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:16:23.628+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:16:23.651+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.145 seconds
+[2025-10-28T00:16:53.776+0100] {processor.py:186} INFO - Started process (PID=927) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:16:53.786+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:16:53.790+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:16:53.790+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:16:53.807+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:16:53.849+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:16:53.849+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:16:53.882+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:16:53.881+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:16:53.902+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.136 seconds
+[2025-10-28T00:17:24.148+0100] {processor.py:186} INFO - Started process (PID=932) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:17:24.149+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:17:24.152+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:17:24.152+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:17:24.168+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:17:24.209+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:17:24.208+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:17:24.244+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:17:24.244+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:17:24.271+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.139 seconds
+[2025-10-28T00:17:54.389+0100] {processor.py:186} INFO - Started process (PID=937) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:17:54.400+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:17:54.404+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:17:54.404+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:17:54.435+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:17:54.487+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:17:54.487+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:17:54.523+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:17:54.523+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:17:54.549+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.173 seconds
+[2025-10-28T00:18:24.789+0100] {processor.py:186} INFO - Started process (PID=942) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:18:24.792+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:18:24.801+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:18:24.800+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:18:24.837+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:18:24.906+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:18:24.905+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:18:24.986+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:18:24.985+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:18:25.040+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.283 seconds
+[2025-10-28T00:18:55.287+0100] {processor.py:186} INFO - Started process (PID=947) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:18:55.288+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:18:55.291+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:18:55.291+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:18:55.308+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:18:55.349+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:18:55.349+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:18:55.383+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:18:55.383+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:18:55.435+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.157 seconds
+[2025-10-28T00:19:25.539+0100] {processor.py:186} INFO - Started process (PID=952) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:19:25.541+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:19:25.551+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:19:25.549+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:19:25.605+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:19:25.691+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:19:25.691+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:19:25.754+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:19:25.753+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:19:25.797+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.287 seconds
+[2025-10-28T00:19:55.922+0100] {processor.py:186} INFO - Started process (PID=957) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:19:55.924+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:19:55.926+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:19:55.926+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:19:55.939+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:19:55.980+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:19:55.980+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:19:56.014+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:19:56.013+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:19:56.049+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.134 seconds
+[2025-10-28T00:20:26.264+0100] {processor.py:186} INFO - Started process (PID=962) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:20:26.266+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:20:26.271+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:20:26.270+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:20:26.294+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:20:26.354+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:20:26.353+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:20:26.414+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:20:26.413+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:20:26.465+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.216 seconds
+[2025-10-28T00:20:56.733+0100] {processor.py:186} INFO - Started process (PID=967) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:20:56.743+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:20:56.747+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:20:56.746+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:20:56.760+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:20:56.798+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:20:56.797+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:20:56.836+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:20:56.835+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:20:56.858+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.134 seconds
+[2025-10-28T00:21:26.973+0100] {processor.py:186} INFO - Started process (PID=972) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:21:26.974+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:21:26.978+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:21:26.978+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:21:26.994+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:21:27.035+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:21:27.035+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:21:27.066+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:21:27.066+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:21:27.089+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.124 seconds
+[2025-10-28T00:21:57.326+0100] {processor.py:186} INFO - Started process (PID=977) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:21:57.337+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:21:57.341+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:21:57.340+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:21:57.357+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:21:57.401+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:21:57.401+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:21:57.437+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:21:57.437+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:21:57.461+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.146 seconds
+[2025-10-28T00:22:27.593+0100] {processor.py:186} INFO - Started process (PID=982) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:22:27.594+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:22:27.598+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:22:27.597+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:22:27.624+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:22:27.676+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:22:27.676+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:22:27.718+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:22:27.717+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:22:27.750+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.169 seconds
+[2025-10-28T00:22:57.947+0100] {processor.py:186} INFO - Started process (PID=987) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:22:57.949+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:22:57.953+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:22:57.952+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:22:57.985+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:22:58.027+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:22:58.027+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:22:58.063+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:22:58.063+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:22:58.096+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.162 seconds
+[2025-10-28T00:23:28.300+0100] {processor.py:186} INFO - Started process (PID=992) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:23:28.304+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:23:28.313+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:23:28.312+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:23:28.348+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:23:28.421+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:23:28.421+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:23:28.459+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:23:28.458+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:23:28.484+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.207 seconds
+[2025-10-28T00:23:58.610+0100] {processor.py:186} INFO - Started process (PID=997) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:23:58.621+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:23:58.627+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:23:58.626+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:23:58.650+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:23:58.708+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:23:58.708+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:23:58.754+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:23:58.753+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:23:58.788+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.190 seconds
+[2025-10-28T00:24:28.961+0100] {processor.py:186} INFO - Started process (PID=1002) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:24:28.962+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:24:28.967+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:24:28.966+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:24:28.985+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:24:29.056+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:24:29.056+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:24:29.092+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:24:29.091+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:24:29.134+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.183 seconds
+[2025-10-28T00:24:59.287+0100] {processor.py:186} INFO - Started process (PID=1007) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:24:59.297+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:24:59.301+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:24:59.300+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:24:59.315+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:24:59.353+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:24:59.353+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:24:59.384+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:24:59.384+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:24:59.418+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.140 seconds
+[2025-10-28T00:25:29.617+0100] {processor.py:186} INFO - Started process (PID=1012) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:25:29.618+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:25:29.622+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:25:29.622+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:25:29.640+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:25:29.677+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:25:29.677+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:25:29.709+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:25:29.708+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:25:29.737+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.129 seconds
+[2025-10-28T00:25:59.953+0100] {processor.py:186} INFO - Started process (PID=1017) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:25:59.955+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:25:59.958+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:25:59.958+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:25:59.975+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:26:00.010+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:26:00.010+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:26:00.059+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:26:00.058+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:26:00.081+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.140 seconds
+[2025-10-28T00:26:30.292+0100] {processor.py:186} INFO - Started process (PID=1022) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:26:30.294+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:26:30.299+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:26:30.298+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:26:30.325+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:26:30.380+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:26:30.379+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:26:30.419+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:26:30.418+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:26:30.450+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.200 seconds
+[2025-10-28T00:27:00.620+0100] {processor.py:186} INFO - Started process (PID=1027) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:27:00.624+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:27:00.631+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:27:00.630+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:27:00.659+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:27:00.724+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:27:00.724+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:27:00.774+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:27:00.773+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:27:00.812+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.215 seconds
+[2025-10-28T00:27:30.950+0100] {processor.py:186} INFO - Started process (PID=1032) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:27:30.951+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:27:30.954+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:27:30.954+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:27:30.971+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:27:31.042+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:27:31.041+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:27:31.086+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:27:31.085+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:27:31.114+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.173 seconds
+[2025-10-28T00:28:01.335+0100] {processor.py:186} INFO - Started process (PID=1037) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:28:01.337+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:28:01.341+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:28:01.341+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:28:01.369+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:28:01.425+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:28:01.424+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:28:01.493+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:28:01.493+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:28:01.535+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.211 seconds
+[2025-10-28T00:28:31.646+0100] {processor.py:186} INFO - Started process (PID=1042) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:28:31.647+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:28:31.651+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:28:31.650+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:28:31.665+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:28:31.704+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:28:31.703+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:28:31.742+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:28:31.741+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:28:31.770+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.132 seconds
+[2025-10-28T00:29:02.029+0100] {processor.py:186} INFO - Started process (PID=1047) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:29:02.031+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:29:02.034+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:29:02.034+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:29:02.054+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:29:02.140+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:29:02.140+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:29:02.186+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:29:02.186+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:29:02.219+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.198 seconds
+[2025-10-28T00:29:32.284+0100] {processor.py:186} INFO - Started process (PID=1052) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:29:32.285+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:29:32.289+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:29:32.288+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:29:32.304+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:29:32.344+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:29:32.344+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:29:32.382+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:29:32.381+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:29:32.407+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.133 seconds
+[2025-10-28T00:30:02.509+0100] {processor.py:186} INFO - Started process (PID=1057) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:30:02.510+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:30:02.513+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:30:02.513+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:30:02.528+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:30:02.565+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:30:02.565+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:30:02.598+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:30:02.598+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:30:02.625+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.127 seconds
+[2025-10-28T00:30:32.900+0100] {processor.py:186} INFO - Started process (PID=1062) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:30:32.902+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:30:32.905+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:30:32.905+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:30:32.926+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:30:32.972+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:30:32.971+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:30:33.040+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:30:33.040+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:30:33.078+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.189 seconds
+[2025-10-28T00:31:03.192+0100] {processor.py:186} INFO - Started process (PID=1067) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:31:03.196+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:31:03.202+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:31:03.201+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:31:03.222+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:31:03.262+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:31:03.262+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:31:03.295+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:31:03.294+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:31:03.318+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.142 seconds
+[2025-10-28T00:31:33.582+0100] {processor.py:186} INFO - Started process (PID=1072) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:31:33.584+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:31:33.587+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:31:33.587+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:31:33.602+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:31:33.643+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:31:33.643+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:31:33.673+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:31:33.672+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:31:33.694+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.122 seconds
+[2025-10-28T00:32:03.856+0100] {processor.py:186} INFO - Started process (PID=1077) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:32:03.858+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:32:03.861+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:32:03.861+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:32:03.878+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:32:03.933+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:32:03.932+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:32:03.996+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:32:03.995+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:32:04.033+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.186 seconds
+[2025-10-28T00:32:34.165+0100] {processor.py:186} INFO - Started process (PID=1082) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:32:34.167+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:32:34.171+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:32:34.171+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:32:34.188+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:32:34.236+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:32:34.235+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:32:34.271+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:32:34.271+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:32:34.300+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.145 seconds
+[2025-10-28T00:33:04.569+0100] {processor.py:186} INFO - Started process (PID=1087) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:33:04.570+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:33:04.574+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:33:04.573+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:33:04.589+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:33:04.625+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:33:04.625+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:33:04.654+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:33:04.654+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:33:04.676+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.116 seconds
+[2025-10-28T00:33:34.830+0100] {processor.py:186} INFO - Started process (PID=1092) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:33:34.832+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:33:34.839+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:33:34.838+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:33:34.867+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:33:34.938+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:33:34.937+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:33:34.994+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:33:34.994+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:33:35.048+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.238 seconds
+[2025-10-28T00:34:05.126+0100] {processor.py:186} INFO - Started process (PID=1097) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:34:05.128+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:34:05.132+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:34:05.131+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:34:05.149+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:34:05.196+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:34:05.196+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:34:05.233+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:34:05.233+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:34:05.260+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.144 seconds
+[2025-10-28T00:34:35.383+0100] {processor.py:186} INFO - Started process (PID=1102) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:34:35.384+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:34:35.388+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:34:35.387+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:34:35.409+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:34:35.458+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:34:35.458+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:34:35.502+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:34:35.501+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:34:35.534+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.160 seconds
+[2025-10-28T00:35:05.757+0100] {processor.py:186} INFO - Started process (PID=1107) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:35:05.759+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:35:05.765+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:35:05.764+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:35:05.792+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:35:05.848+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:35:05.848+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:35:05.914+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:35:05.914+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:35:05.945+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.197 seconds
+[2025-10-28T00:35:36.178+0100] {processor.py:186} INFO - Started process (PID=1112) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:35:36.180+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:35:36.183+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:35:36.182+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:35:36.196+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:35:36.233+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:35:36.232+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:35:36.262+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:35:36.262+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:35:36.297+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.126 seconds
+[2025-10-28T00:36:06.508+0100] {processor.py:186} INFO - Started process (PID=1117) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:36:06.518+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:36:06.522+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:36:06.521+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:36:06.549+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:36:06.588+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:36:06.588+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:36:06.621+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:36:06.621+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:36:06.644+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.149 seconds
+[2025-10-28T00:36:36.870+0100] {processor.py:186} INFO - Started process (PID=1122) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:36:36.872+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:36:36.875+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:36:36.874+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:36:36.890+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:36:36.926+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:36:36.926+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:36:36.956+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:36:36.956+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:36:36.977+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.116 seconds
+[2025-10-28T00:37:07.160+0100] {processor.py:186} INFO - Started process (PID=1127) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:37:07.174+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:37:07.198+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:37:07.194+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:37:07.254+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:37:07.432+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:37:07.431+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:37:07.499+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:37:07.498+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:37:07.538+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.393 seconds
+[2025-10-28T00:37:37.812+0100] {processor.py:186} INFO - Started process (PID=1132) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:37:37.813+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:37:37.815+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:37:37.815+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:37:37.827+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:37:37.859+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:37:37.859+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:37:37.885+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:37:37.884+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:37:37.904+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.099 seconds
+[2025-10-28T00:38:08.073+0100] {processor.py:186} INFO - Started process (PID=1137) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:38:08.085+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:38:08.088+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:38:08.088+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:38:08.126+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:38:08.179+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:38:08.179+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:38:08.216+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:38:08.216+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:38:08.237+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.172 seconds
+[2025-10-28T00:38:38.449+0100] {processor.py:186} INFO - Started process (PID=1142) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:38:38.451+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:38:38.453+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:38:38.453+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:38:38.464+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:38:38.496+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:38:38.496+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:38:38.522+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:38:38.521+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:38:38.557+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.115 seconds
+[2025-10-28T00:39:08.765+0100] {processor.py:186} INFO - Started process (PID=1147) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:39:08.776+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:39:08.778+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:39:08.777+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:39:08.792+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:39:08.834+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:39:08.834+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:39:08.860+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:39:08.860+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:39:08.880+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.128 seconds
+[2025-10-28T00:39:39.106+0100] {processor.py:186} INFO - Started process (PID=1152) to work on /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:39:39.110+0100] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_hourly_refresh_dag.py for tasks to queue
+[2025-10-28T00:39:39.117+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:39:39.116+0100] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:39:39.150+0100] {processor.py:925} INFO - DAG(s) 'dbt_hourly_refresh' retrieved from /opt/airflow/dags/dbt_hourly_refresh_dag.py
+[2025-10-28T00:39:39.222+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:39:39.222+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-28T00:39:39.295+0100] {logging_mixin.py:190} INFO - [2025-10-28T00:39:39.294+0100] {dag.py:4180} INFO - Setting next_dagrun for dbt_hourly_refresh to 2025-10-27 23:00:00+00:00, run_after=2025-10-28 00:00:00+00:00
+[2025-10-28T00:39:39.352+0100] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_hourly_refresh_dag.py took 0.268 seconds

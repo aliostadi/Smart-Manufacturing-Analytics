@@ -1,0 +1,14 @@
+smt_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: smt-postgres          # the service name from docker-compose
+      user: smtadmin         # or your postgres username
+      password: "110113" 
+      port: 5432
+      dbname: smt             # your database name
+      schema: analytics       # schema dbt will create tables in
+      threads: 4
+
+

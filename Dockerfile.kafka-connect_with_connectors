@@ -1,0 +1,14 @@
+# ✅ Base image
+FROM confluentinc/cp-kafka-connect:7.6.1
+
+# ✅ Install JDBC Source & Sink connectors
+RUN confluent-hub install --no-prompt confluentinc/kafka-connect-jdbc:10.7.4
+
+# ✅ Clean temporary files (recommended)
+RUN rm -rf /tmp/*
+
+# ✅ (Optional) verify plugin path
+ENV CONNECT_PLUGIN_PATH="/usr/share/java,/usr/share/confluent-hub-components"
+
+# ✅ Default start command (same as base image)
+CMD ["/etc/confluent/docker/run"]

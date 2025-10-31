@@ -1,0 +1,27 @@
+{
+  "name": "smt-postgres-sink",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "tasks.max": "1",
+    "topics": "smt-station-events",
+    
+    "connection.url": "jdbc:postgresql://smt-postgres:5432/smt",
+    "connection.user": "smtadmin",
+    "connection.password": "110113",
+    
+    "insert.mode": "insert",
+    "table.name.format": "station_records",
+    "auto.create": "true",
+    "auto.evolve": "true",
+    
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "true",
+    
+    "errors.tolerance": "all",  
+    "errors.log.enable": "true",
+    "errors.log.include.messages": "true"
+
+   
+  }
+}
